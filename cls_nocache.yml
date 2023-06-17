@@ -55,6 +55,7 @@ custom_proxy_group=⚡️ 节点选择`select`[]🔴 手动选择1`[]⚫ 手动�
 custom_proxy_group=🔴 手动选择1`select`.*
 custom_proxy_group=⚫ 手动选择2`select`.*
 custom_proxy_group=🔥 自动选择`url-test`.*`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🐶 内网分组`select`[]DIRECT`[]⚡️ 节点选择`[]🔥 自动选择
 custom_proxy_group=🍟 油管视频`select`[]🇯🇵 日本自动`[]🥬 实验节点`[]😓 冷门节点`.*
 custom_proxy_group=🎥 Netflix`select`[]⚡️ 节点选择`[]🔴 手动选择1`[]⚫ 手动选择2`.*
 custom_proxy_group=🎥 DisneyPlus`select`[]⚡️ 节点选择`[]🔴 手动选择1`[]⚫ 手动选择2`.*
