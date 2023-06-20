@@ -3,10 +3,15 @@ DOMAIN-SUFFIX,azcn.com
 DOMAIN-SUFFIX,jdazcn.com
 DOMAIN-SUFFIX,jdallianz.com
 DOMAIN-SUFFIX,ops.azjd
+
+DOMAIN-SUFFIX,appstorrent.ru
+
+
 DOMAIN-KEYWORD,jdcloud
 DOMAIN-KEYWORD,jd
 DOMAIN-KEYWORD,cbpmgt
 DOMAIN-KEYWORD,chinabank
 DOMAIN-KEYWORD,jcloudcs.com
+
 
 IP-CIDR,11.0.0.0/8
