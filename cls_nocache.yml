@@ -1,39 +1,49 @@
+[custom]
+
+
+;设置规则标志位
+
 rule-set=🧐 谷歌服务,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.list
-rule-set=Ⓜ️ 微软服务,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/MSServices.list
-rule-set=🎥 奈飞服务,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/lhie1/Surge/Surge%203/Provider/Media/Netflix.list
-rule-set=🌍 国外媒体,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/DivineEngine/Surge/Ruleset/StreamingMedia/Streaming.list
-rule-set=🌍 国外媒体,https://raw.githubusercontent.com/kongwu-/rules/main/Stream.list
-rule-set=🌏 国内媒体,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/lhie1/Surge/Surge%203/Provider/Media/Bilibili.list
-rule-set=🌏 国内媒体,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/lhie1/Surge/Surge%203/Provider/Media/iQiyi.list
-rule-set=🌏 国内媒体,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/lhie1/Surge/Surge%203/Provider/Media/Letv.list
-rule-set=🌏 国内媒体,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/lhie1/Surge/Surge%203/Provider/Media/MOO.list
-rule-set=🌏 国内媒体,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/lhie1/Surge/Surge%203/Provider/Media/Tencent%20Video.list
-rule-set=🌏 国内媒体,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/lhie1/Surge/Surge%203/Provider/Media/Youku.list
-rule-set=📲 电报服务,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list
-rule-set=🍎 苹果服务,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/DivineEngine/Surge/Ruleset/Extra/Apple/Apple.list
+rule-set=Ⓜ️ 微软服务,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.list
+rule-set=🎥 奈飞服务,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.list
+rule-set=📲 电报服务,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.list
+rule-set=🍎 苹果服务,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.list
 rule-set=🐦 推特服务,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Twitter/Twitter.list
 rule-set=🧠 OpenAI,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OpenAI/OpenAI.list
-rule-set=🧐 谷歌服务,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/DivineEngine/Surge/Ruleset/Extra/Google/GoogleDrive.list
-rule-set=🎯 全球直连,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/DivineEngine/Surge/Ruleset/China.list
-rule-set=🎯 全球直连,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/LocalAreaNetwork.list
-rule-set=🎯 全球直连,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/NobyDa/Surge/Download.list
-rule-set=🎯 全球直连,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/DivineEngine/Surge/Ruleset/Unbreak.list
-rule-set=🎯 全球直连,https://raw.githubusercontent.com/kongwu-/rules/main/Direct.list
+rule-set=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
+rule-set=🎯 全球直连,https://raw.githubusercontent.com/WC-Dream/ACL4SSR/master/Clash/direct.list
+rule-set=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
+rule-set=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+rule-set=🎯 全球直连,https://raw.githubusercontent.com/Twoandz9/Clash/main/list/AddDirect.list
 rule-set=🐶 内网分组,https://raw.githubusercontent.com/kongwu-/rules/main/Block.list
-rule-set=🛑 全球拦截,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/NobyDa/Surge/AdRule.list
-rule-set=🛑 全球拦截,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/DivineEngine/Surge/Ruleset/Guard/Hijacking.list
+;ruleset=🎯 全球直连,[]GEOIP,LAN
+;ruleset=🎯 全球直连,[]GEOIP,CN
+;设置规则标志位
+
+;设置分组标志位
+custom_proxy_group=🔰 节点选择`select`[]🤏 手动选择`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🥬 实验节点`[]❄️ 冷门节点`.*
+custom_proxy_group=🤏 手动选择`select`.*
+custom_proxy_group=🍎 苹果服务`select`[]🔰 节点选择`[]🤏 手动选择`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🥬 实验节点`[]❄️ 冷门节点`.*
+custom_proxy_group=🧐 谷歌服务`select`[]🔰 节点选择`[]🤏 手动选择`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🥬 实验节点`[]❄️ 冷门节点`.*
+custom_proxy_group=🐦 推特服务`select`[]🔰 节点选择`[]🤏 手动选择`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🥬 实验节点`[]❄️ 冷门节点`.*
+custom_proxy_group=🧠 OpenAI`select`[]🔰 节点选择`[]🤏 手动选择`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🥬 实验节点`[]❄️ 冷门节点`.*
+custom_proxy_group=🎯 全球直连`select`[]DIRECT`[]🔰 节点选择
+custom_proxy_group=🇨🇳 中国大陆`select`[]🔰 节点选择`[]🤏 手动选择`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🥬 实验节点`[]❄️ 冷门节点`.*
+custom_proxy_group=Ⓜ️ 微软服务 `select`[]🔰 节点选择`[]🤏 手动选择`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🥬 实验节点`[]❄️ 冷门节点`.*
+custom_proxy_group=🎥 奈飞服务`select`[]🔰 节点选择`[]🤏 手动选择`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🥬 实验节点`[]❄️ 冷门节点`.*
+custom_proxy_group=📲 电报服务`select`[]🔰 节点选择`[]🤏 手动选择`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🥬 实验节点`[]❄️ 冷门节点`.*
+
+custom_proxy_group=🥬 实验节点`select`(实验)
+custom_proxy_group=❄️ 冷门节点`select`^((?!(台|日|韩|新|美|港|Expire|Traffic|流量|剩余)).)*$
+
+;自动测速
+custom_proxy_group=🇭🇰 香港节点`url-test`(香港|HK|Hong Kong|Hongkong)`http://www.gstatic.com/generate_204`300,,100
+custom_proxy_group=🇯🇵 日本节点`url-test`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan|Tokyo)`http://www.gstatic.com/generate_204`300,,100
+custom_proxy_group=🇺🇲 美国节点`url-test`(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States|America|California)`http://www.gstatic.com/generate_204`300,,100
+custom_proxy_group=🇨🇳 台湾节点`url-test`(台|新北|彰化|TW|Taiwan)`http://www.gstatic.com/generate_204`300,,100
+custom_proxy_group=🇸🇬 狮城节点`url-test`(新加坡|坡|狮城|SG|Singapore)`http://www.gstatic.com/generate_204`300,,100
 
 
-custom_proxy_group=🍎 苹果服务`select`[]🔰 节点选择`[]🤏 手动选择`[]♻️ 自动选择`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🥬 实验节点`[]❄️ 冷门节点`.*
-custom_proxy_group=🧐 谷歌服务`select`[]🔰 节点选择`[]🤏 手动选择`[]♻️ 自动选择`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🥬 实验节点`[]❄️ 冷门节点`.*
-custom_proxy_group=🐦 推特服务`select`[]🔰 节点选择`[]🤏 手动选择`[]♻️ 自动选择`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🥬 实验节点`[]❄️ 冷门节点`.*
-custom_proxy_group=🧠 OpenAI`select`[]🔰 节点选择`[]🤏 手动选择`[]♻️ 自动选择`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🥬 实验节点`[]❄️ 冷门节点`.*
-custom_proxy_group=🎯 全球直连`select`[]DIRECT`[]🔰 节点选择`[]♻️ 自动选择
-custom_proxy_group=🛑 全球拦截`select`[]DIRECT`[]REJECT`[]🔰 节点选择`[]♻️ 自动选择
-custom_proxy_group=🇨🇳 中国大陆`select`[]🔰 节点选择`[]🤏 手动选择`[]♻️ 自动选择`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🥬 实验节点`[]❄️ 冷门节点`.*
-custom_proxy_group=Ⓜ️ 微软服务 `select`[]🔰 节点选择`[]🤏 手动选择`[]♻️ 自动选择`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🥬 实验节点`[]❄️ 冷门节点`.*
-custom_proxy_group=🎥 奈飞服务`select`[]🔰 节点选择`[]🤏 手动选择`[]♻️ 自动选择`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🥬 实验节点`[]❄️ 冷门节点`.*
-custom_proxy_group=🌍 国外媒体`select`[]🔰 节点选择`[]🤏 手动选择`[]♻️ 自动选择`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🥬 实验节点`[]❄️ 冷门节点`.*
-custom_proxy_group=🌏 国内媒体`select`[]🔰 节点选择`[]🤏 手动选择`[]♻️ 自动选择`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🥬 实验节点`[]❄️ 冷门节点`.*
-custom_proxy_group=📲 电报服务`select`[]🔰 节点选择`[]🤏 手动选择`[]♻️ 自动选择`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🥬 实验节点`[]❄️ 冷门节点`.*
-custom_proxy_group=🐟 漏网之鱼`select`[]🔰 节点选择`[]🤏 手动选择`[]♻️ 自动选择`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🥬 实验节点`[]❄️ 冷门节点`.*
+;设置分组标志位
+enable_rule_generator=true
+overwrite_original_rules=true
