@@ -29,6 +29,10 @@ ruleset=🎯 Global Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/mas
 ruleset=🎯 Global Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
 ruleset=🎯 Global Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
 ruleset=🎯 Global Direct,https://raw.githubusercontent.com/WC-Dream/ACL4SSR/master/Clash/direct.list
+
+ruleset=🅰️ Anthropic,https://raw.githubusercontent.com/kongwu-/rules/main/Anthropic.list
+ruleset=🖕 Adobe,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Adobe/Adobe.list
+
 ruleset=🐟 Final,[]FINAL
 ;设置规则标志位
 
@@ -44,6 +48,9 @@ custom_proxy_group=🧲 Telegram`select`[]🔰 Proxy`[]🤏 Manual`[]🔥 Auto`[
 custom_proxy_group=🥊 Google`select`[]🔰 Proxy`[]🤏 Manual`[]🔥 Auto`[]🇺🇲 United States`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇸🇬 Singapore`[]🇯🇵 Japan`[]🇰🇷 Korea`[]🥬 Experimental`[]😓 Cheap`.*
 custom_proxy_group=🤮 Instagram`select`[]🔰 Proxy`[]🤏 Manual`[]🔥 Auto`[]🇺🇲 United States`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇸🇬 Singapore`[]🇯🇵 Japan`[]🇰🇷 Korea`[]🥬 Experimental`[]😓 Cheap`.*
 custom_proxy_group=🧠 OpenAI`select`[]🔰 Proxy`[]🤏 Manual`[]🔥 Auto`[]🇺🇲 United States`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇸🇬 Singapore`[]🇯🇵 Japan`[]🇰🇷 Korea`[]🥬 Experimental`[]😓 Cheap`.*
+custom_proxy_group=🅰️ Anthropic`select`[]🔰 Proxy`[]🤏 Manual`[]🔥 Auto`[]🇺🇲 United States`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇸🇬 Singapore`[]🇯🇵 Japan`[]🇰🇷 Korea`[]🥬 Experimental`[]😓 Cheap`.*
+custom_proxy_group=🖕 Adobe`select`[]🔰 Proxy`[]🤏 Manual`[]🔥 Auto`[]🇺🇲 United States`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇸🇬 Singapore`[]🇯🇵 Japan`[]🇰🇷 Korea`[]🥬 Experimental`[]😓 Cheap`.*
+
 custom_proxy_group=🍎 Apple`select`[]DIRECT`[]🔰 Proxy`[]🤏 Manual`[]🔥 Auto`[]🇺🇲 United States`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇸🇬 Singapore`[]🇯🇵 Japan`[]🇰🇷 Korea`[]🥬 Experimental`[]😓 Cheap`.*
 custom_proxy_group=🖥 Microsoft`select`[]DIRECT`[]🔰 Proxy`[]🤏 Manual`[]🔥 Auto`[]🇺🇲 United States`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇸🇬 Singapore`[]🇯🇵 Japan`[]🇰🇷 Korea`[]🥬 Experimental`[]😓 Cheap`.*
 custom_proxy_group=🎯 Global Direct`select`[]DIRECT`[]🔰 Proxy`[]🔥 Auto
