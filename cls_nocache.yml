@@ -21,20 +21,10 @@ ruleset=📝 Notion,https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 ruleset=📕 Xiaohongshu,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/XiaoHongShu/XiaoHongShu.list
 ruleset=🐶 JD Office,https://raw.githubusercontent.com/kongwu-/rules/main/Block.list
-ruleset=🐟 Final,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 ruleset=🎯 Global Direct,https://raw.githubusercontent.com/kongwu-/rules/main/Direct.list
-ruleset=🎯 Global Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
-ruleset=🎯 Global Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
-ruleset=🎯 Global Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
-ruleset=🎯 Global Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
-ruleset=🎯 Global Direct,https://raw.githubusercontent.com/Twoandz9/Clash/main/list/AddDirect.list
-ruleset=🎯 Global Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
-ruleset=🎯 Global Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
-ruleset=🎯 Global Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
-ruleset=🎯 Global Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
-ruleset=🎯 Global Direct,https://raw.githubusercontent.com/WC-Dream/ACL4SSR/master/Clash/direct.list
+ruleset=🎯 Global Direct,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/China/China_All.list
 
-ruleset=🅰️ Anthropic,https://raw.githubusercontent.com/kongwu-/rules/main/Anthropic.list
+ruleset=🅰️ Anthropic,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Anthropic/Anthropic.list
 ruleset=🖕 Adobe,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Adobe/Adobe.list
 ruleset=💃 Scrape,https://raw.githubusercontent.com/kongwu-/rules/main/Scrape.list
 
