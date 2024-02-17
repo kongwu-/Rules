@@ -4,7 +4,6 @@ ruleset=DIRECT,https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@mast
 ruleset=Proxies,https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/ruleset/force-proxy.list
 ruleset=Applee,https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/ruleset/external/DivineEngine/Surge/Apple.list
 ruleset=MicroSoft,https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/ruleset/microsoft.list
-ruleset=Netease,https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/ruleset/media/netease.list
 ruleset=Telegram,https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/ruleset/external/DivineEngine/Surge/Telegram.list
 ruleset=Streaming,https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/ruleset/external/DivineEngine/Surge/Streaming.list
 ruleset=StreamingSE,https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/ruleset/external/DivineEngine/Surge/StreamingSE.list
