@@ -28,8 +28,6 @@ ruleset=🪙 Crypto,https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 ruleset=🎯 Global Direct,https://raw.githubusercontent.com/kongwu-/rules/main/Direct.list
 ruleset=🎯 Global Direct,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/China/China_All.list
-ruleset=🎯 Global Direct,[]GEOIP,LAN
-ruleset=🎯 Global Direct,[]GEOIP,CN
 ruleset=🐟 Final,[]FINAL
 ;设置规则标志位
 
