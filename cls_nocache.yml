@@ -20,16 +20,16 @@ ruleset=📝 Notion,https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 ruleset=📕 Xiaohongshu,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/XiaoHongShu/XiaoHongShu.list
 ruleset=🐶 JD Office,https://raw.githubusercontent.com/kongwu-/rules/main/Block.list
-ruleset=🎯 Global Direct,https://raw.githubusercontent.com/kongwu-/rules/main/Direct.list
-ruleset=🎯 Global Direct,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/China/China_All.list
-ruleset=🎯 Global Direct,[]GEOIP,LAN
-ruleset=🎯 Global Direct,[]GEOIP,CN
+
 ruleset=🅰️ Anthropic,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Anthropic/Anthropic.list
 ruleset=🖕 Adobe,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Adobe/Adobe.list
 ruleset=💃 Scrape,https://raw.githubusercontent.com/kongwu-/rules/main/Scrape.list
 ruleset=🪙 Crypto,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Crypto/Crypto.list
 
-
+ruleset=🎯 Global Direct,https://raw.githubusercontent.com/kongwu-/rules/main/Direct.list
+ruleset=🎯 Global Direct,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/China/China_All.list
+ruleset=🎯 Global Direct,[]GEOIP,LAN
+ruleset=🎯 Global Direct,[]GEOIP,CN
 ruleset=🐟 Final,[]FINAL
 ;设置规则标志位
 
