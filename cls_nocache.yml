@@ -27,6 +27,7 @@ ruleset=🎯 Global Direct,[]GEOIP,CN
 ruleset=🅰️ Anthropic,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Anthropic/Anthropic.list
 ruleset=🖕 Adobe,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Adobe/Adobe.list
 ruleset=💃 Scrape,https://raw.githubusercontent.com/kongwu-/rules/main/Scrape.list
+ruleset=🪙 Crypto,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Crypto/Crypto.list
 
 
 ruleset=🐟 Final,[]FINAL
@@ -51,6 +52,7 @@ custom_proxy_group=🍎 Apple`select`[]DIRECT`[]🔰 Proxy`[]🤏 Manual`[]🔥 
 custom_proxy_group=🖥 Microsoft`select`[]DIRECT`[]🔰 Proxy`[]🤏 Manual`[]🔥 Auto`[]🇺🇲 United States`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇸🇬 Singapore`[]🇯🇵 Japan`[]🇰🇷 Korea`[]🥬 Experimental`[]😓 Cheap`.*
 custom_proxy_group=📝 Notion`select`[]🔰 Proxy`[]🤏 Manual`[]🔥 Auto`[]🇺🇲 United States`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇸🇬 Singapore`[]🇯🇵 Japan`[]🇰🇷 Korea`[]🥬 Experimental`[]😓 Cheap`.*
 custom_proxy_group=💃 Scrape`select`[]DIRECT`[]🔰 Proxy`[]🤏 Manual`[]🔥 Auto`[]🇺🇲 United States`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇸🇬 Singapore`[]🇯🇵 Japan`[]🇰🇷 Korea`[]🥬 Experimental`[]😓 Cheap`.*
+custom_proxy_group=🪙 Crypto`select`[]DIRECT`[]🔰 Proxy`[]🤏 Manual`[]🔥 Auto`[]🇺🇲 United States`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇸🇬 Singapore`[]🇯🇵 Japan`[]🇰🇷 Korea`[]🥬 Experimental`[]😓 Cheap`.*
 
 custom_proxy_group=🎯 Global Direct`select`[]DIRECT`[]🔰 Proxy`[]🔥 Auto
 custom_proxy_group=🐟 Final`select`[]🔰 Proxy`[]🤏 Manual`[]🔥 Auto`[]🇺🇲 United States`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇸🇬 Singapore`[]🇯🇵 Japan`[]🇰🇷 Korea`[]🥬 Experimental`[]😓 Cheap
